@@ -71,13 +71,42 @@ body {
 	text-decoration: double;
 }
 
-/* MAIN */
+/* SINGS */
 
-.main {
+.portfolio-cards {
+	font-size: 0px;
+
+}
+
+.portfolio-card {
+	width: 380px;
+	height: 226px;
+	display: inline-block;
+	font-size: 22px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+.portfolio-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+/* MAIN-TEXT */
+
+
+
+.main-text {
+	color: #3D3D3D;
+	padding: 22px 0 58px;
+	background: #FFE482;
 	text-align: center;
 	font-weight: 500;
 	font-size: 22px;
-	
+
 }
 
 .main-title {
@@ -86,12 +115,7 @@ body {
 	font-weight: 500;
 	font-size: 37px;
 	text-transform: uppercase;
-}
-
-.main-text {
-	color: #3D3D3D;
-	padding: 22px 0 58px;
-	background: #FFE482;
+	text-align: center;
 }
 
 
