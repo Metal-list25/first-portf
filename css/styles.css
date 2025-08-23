@@ -13,15 +13,17 @@ body {
 	margin: 0 auto;
 }
 
+
 .subtitle {
 	font-size: 37px;
 }
 
 /* HEADER */
 .header {
-	text-align: center;
-	padding: 36px 0 82px;
+	text-align: center; 
+	margin-top: 35px;
 }
+
 
 .header-photo {
 	width: 215px;
@@ -59,17 +61,33 @@ body {
 
 .header-other>p+p {
 	margin: 10px 0 0;
+	display: inline-block;
 }
 
-.header_link { 
-	margin: 39px 0 0;
-	color: #FFE482; 
+/* LINKS */
+
+.header_link>a { 
+	margin: 47px 0 0;
+	border-radius: 6px;
+	padding: 25px 40px 25px 55px;
+	background: #FFE071;
+	color: #3D3D3D; 
+	text-decoration: none;
+	display:inline-block;
+
+}
+
+.header_link>a+a {
+	color: #A3ABB2;
+	background: #171F26;
+	padding: 25px 80px;
 }
 
 .header_link a {
-	color: #FFE482;
+	color: #3D3D3D;
 	text-decoration: double;
 }
+
 
 /* SINGS */
 
@@ -85,6 +103,7 @@ body {
 	font-size: 22px;
 	overflow: hidden;
 	border-radius: 15px;
+	margin-bottom: 30px;
 }
 
 .portfolio-card img {
