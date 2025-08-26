@@ -181,15 +181,12 @@ body {
 }
 
 .portfolio-cards {
-	font-size: 0px;
-
 }
 
 .portfolio-card {
 	float: left;
 	width: 380px;
 	height: 226px;
-	font-size: 22px;
 	border-radius: 15px;
 	margin-bottom: 30px;
 	margin-left: 30px;
