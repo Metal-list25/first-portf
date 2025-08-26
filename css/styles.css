@@ -1,8 +1,17 @@
 @import url('reset.css');
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* GLOBAL  */
 body {
 	font-family: "Poppins", sans-serif;
+	font-weight: 500;
 	background: #0C151D;
 	color: #FFF;
 	font-size: 22px;
@@ -111,7 +120,6 @@ body {
 .block-two {
 	margin: 50px 0 0;
 	color: #FFFFFF;
-	font-weight: 500;
 	font-size: 0px;
 	text-align: center;
 }
@@ -166,17 +174,22 @@ body {
 	padding: 100px 0 100px;
 }
 
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
 .portfolio-cards {
 	font-size: 0px;
 
 }
 
 .portfolio-card {
+	float: left;
 	width: 380px;
 	height: 226px;
-	display: inline-block;
 	font-size: 22px;
-	overflow: hidden;
 	border-radius: 15px;
 	margin-bottom: 30px;
 	margin-left: 30px;
@@ -204,7 +217,6 @@ body {
 	padding: 22px 0 58px;
 	background: #FFE482;
 	text-align: center;
-	font-weight: 500;
 	font-size: 22px;
 
 }
@@ -212,7 +224,6 @@ body {
 .main-title {
 	color: #3D3D3D;
 	padding: 22px 0 30px;
-	font-weight: 500;
 	font-size: 37px;
 	text-transform: uppercase;
 	text-align: center;
